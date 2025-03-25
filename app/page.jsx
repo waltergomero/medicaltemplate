@@ -1,6 +1,17 @@
 import Image from "next/image";
 import {Fragment} from "react";
 import IntroContainer from "@/containers/home/intro";
+import HealthFeatureContainer from "@/containers/home/health-feature";
+import MedicalFeatureContainer from "@/containers/home/medical-feature";
+import AppointmentContainer from "@/containers/home/appointment";
+import TeamContainer from "@/containers/home/team";
+import TestimonialContainer from "@/containers/home/testimonial";
+import BrandContainer from "@/containers/global/brand";
+import PricingContainer from "@/containers/global/pricing";
+import BlogAccordion from "@/containers/home/blog-accordion";
+import GoogleMapContainer from "/containers/global/map";
+import Footer from "@/components/footer";
+//import ScrollToTop from "../components/scroll-to-top";
 import SEO from "@/components/ui/seo";
 
 export default function HomePage() {
@@ -10,7 +21,7 @@ export default function HomePage() {
         <div className="wrapper home-default-wrapper">
             <div className="main-content site-wrapper-reveal">
                 <IntroContainer />
-                {/* <HealthFeatureContainer />
+                <HealthFeatureContainer />
                 <MedicalFeatureContainer />
                 <AppointmentContainer />
                 <TeamContainer />
@@ -18,9 +29,9 @@ export default function HomePage() {
                 <BrandContainer />
                 <PricingContainer />
                 <BlogAccordion />
-                <GoogleMapContainer /> */}
+                <GoogleMapContainer />
             </div>
-            {/* <Footer /> */}
+            <Footer />
             {/* <ScrollToTop /> */}
         </div>
 </Fragment>

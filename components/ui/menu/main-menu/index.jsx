@@ -13,7 +13,7 @@ const MainMenu = () => {
                 <li>
                     <Link
                         className="main-menu-link"
-                        href={process.env.PUBLIC_URL + "/service"}
+                        href="/service"
                     >
                         Services
                     </Link>
@@ -21,7 +21,7 @@ const MainMenu = () => {
                         <li>
                             <Link
                                 className="sub-menu-link"
-                                href={process.env.PUBLIC_URL + "/service"}
+                                href="/service"
                             >
                                 Services
                             </Link>
@@ -29,9 +29,7 @@ const MainMenu = () => {
                         <li>
                             <Link
                                 className="sub-menu-link"
-                                href={
-                                    process.env.PUBLIC_URL +
-                                    "/service-details/1"
+                                href={"/service/service-details/1"
                                 }
                             >
                                 Service Details
