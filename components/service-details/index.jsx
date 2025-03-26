@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 SwiperCore.use([Navigation]);
 const ServiceDetails = ({ data }) => {
+    console.log("data: ", data)
     const swiperOption = {
         slidesPerView: 1,
         speed: 1000,
@@ -31,7 +32,7 @@ const ServiceDetails = ({ data }) => {
                                     <SwiperSlide key={key}>
                                         <img
                                             key={key}
-                                            src={`${process.env.PUBLIC_URL}/${single.image}`}
+                                            src={single.image}
                                             alt="Alexis"
                                         />
                                     </SwiperSlide>
@@ -48,7 +49,7 @@ const ServiceDetails = ({ data }) => {
                 {data?.type === "thumbnail" && (
                     <div className="department-gallery">
                         <img
-                            src={`${process.env.PUBLIC_URL}/${data.media.image}`}
+                            src={data.image}
                             alt="Hope"
                         />
                     </div>

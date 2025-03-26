@@ -5,11 +5,11 @@
         "sliderThumb": [
             {
                 "id": 1,
-                "image": "img/photos/department-s1.jpg"
+                "image": "/img/photos/department-s1.jpg"
             },
             {
                 "id": 2,
-                "image": "img/photos/department-s2.jpg"
+                "image": "/img/photos/department-s2.jpg"
             }
         ],
         "icon": "icofont-brain",
@@ -34,8 +34,8 @@
         "id": 2,
         "type": "thumbnail",
         "media": {
-            "thumb": "img/photos/department-s1.jpg",
-            "image": "img/photos/department-s1.jpg"
+            "thumb": "/img/photos/department-s1.jpg",
+            "image": "/img/photos/department-s1.jpg"
         },
         "icon": "icofont-eye",
         "title": "Opthalmology",
@@ -59,8 +59,8 @@
         "id": 3,
         "type": "thumbnail",
         "media": {
-            "thumb": "img/photos/department-s1.jpg",
-            "image": "img/photos/department-s1.jpg"
+            "thumb": "/img/photos/department-s1.jpg",
+            "image": "/img/photos/department-s1.jpg"
         },
         "icon": "icofont-heart-beat",
         "title": "Cardiology",
@@ -84,8 +84,8 @@
         "id": 4,
         "type": "thumbnail",
         "media": {
-            "thumb": "img/photos/department-s1.jpg",
-            "image": "img/photos/department-s1.jpg"
+            "thumb": "/img/photos/department-s1.jpg",
+            "image": "/img/photos/department-s1.jpg"
         },
         "icon": "icofont-microscope-alt",
         "title": "Immumnology",
@@ -109,8 +109,8 @@
         "id": 5,
         "type": "thumbnail",
         "media": {
-            "thumb": "img/photos/department-s1.jpg",
-            "image": "img/photos/department-s1.jpg"
+            "thumb": "/img/photos/department-s1.jpg",
+            "image": "/img/photos/department-s1.jpg"
         },
         "icon": "icofont-blood-drop",
         "title": "Hematology",
@@ -134,8 +134,8 @@
         "id": 6,
         "type": "thumbnail",
         "media": {
-            "thumb": "img/photos/department-s1.jpg",
-            "image": "img/photos/department-s1.jpg"
+            "thumb": "/img/photos/department-s1.jpg",
+            "image": "/img/photos/department-s1.jpg"
         },
         "icon": "icofont-laboratory",
         "title": "Laboratory",
@@ -159,8 +159,8 @@
         "id": 7,
         "type": "thumbnail",
         "media": {
-            "thumb": "img/photos/department-s1.jpg",
-            "image": "img/photos/department-s1.jpg"
+            "thumb": "/img/photos/department-s1.jpg",
+            "image": "/img/photos/department-s1.jpg"
         },
         "icon": "icofont-pills",
         "title": "Oncology",
@@ -184,8 +184,8 @@
         "id": 8,
         "type": "thumbnail",
         "media": {
-            "thumb": "img/photos/department-s1.jpg",
-            "image": "img/photos/department-s1.jpg"
+            "thumb": "/img/photos/department-s1.jpg",
+            "image": "/img/photos/department-s1.jpg"
         },
         "icon": "icofont-tooth",
         "title": "Dental",

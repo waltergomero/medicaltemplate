@@ -4,9 +4,9 @@
         "media": {
             "rcImage": "./img/blog/s01.jpg",
             "smallImage": "./img/blog/01.jpg",
-            "gridImage": "img/blog/r01.jpg",
+            "gridImage": "/img/blog/r01.jpg",
             "mediumImage": "./img/blog/m01.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "Problems About Social Insurance For Truck Drivers",
         "author": "Admin",
@@ -20,9 +20,9 @@
         "media": {
             "rcImage": "./img/blog/s02.jpg",
             "smallImage": "./img/blog/02.jpg",
-            "gridImage": "img/blog/r02.jpg",
+            "gridImage": "/img/blog/r02.jpg",
             "mediumImage": "./img/blog/m02.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "5 Secrets To Coaching Your Employees To Greatness",
         "author": "Torres",
@@ -36,9 +36,9 @@
         "media": {
             "rcImage": "./img/blog/s03.jpg",
             "smallImage": "./img/blog/03.jpg",
-            "gridImage": "img/blog/r01.jpg",
+            "gridImage": "/img/blog/r01.jpg",
             "mediumImage": "./img/blog/m03.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "5 Steps To Build Strategy Planning",
         "author": "Admin",
@@ -52,9 +52,9 @@
         "media": {
             "rcImage": "./img/blog/s01.jpg",
             "smallImage": "./img/blog/03.jpg",
-            "gridImage": "img/blog/r02.jpg",
+            "gridImage": "/img/blog/r02.jpg",
             "mediumImage": "./img/blog/m04.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "The Desolate Beauty  of Greenland",
         "author": "Garza",
@@ -68,9 +68,9 @@
         "media": {
             "rcImage": "./img/blog/s02.jpg",
             "smallImage": "./img/blog/03.jpg",
-            "gridImage": "img/blog/r01.jpg",
+            "gridImage": "/img/blog/r01.jpg",
             "mediumImage": "./img/blog/m05.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "Trend Of Consumer Market 2021",
         "author": "Karen",

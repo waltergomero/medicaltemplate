@@ -48,7 +48,7 @@ const BrandContainer = () => {
         <div
             className="brand-section bg-img"
             style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/img/photos/testimonial-bg1.jpg)`,
+                backgroundImage: `url(/img/photos/testimonial-bg1.jpg)`,
             }}
         >
             <div className="container">

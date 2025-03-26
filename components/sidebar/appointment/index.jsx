@@ -48,20 +48,15 @@ const Appointment = () => {
                             </div>
                         </div>
                         <div className="col-md-12">
-                            <div className="form-group datepicker-group">
-                                <label
-                                    htmlFor="datepicker"
-                                    className="form-label icofont-calendar"
-                                >
-                                    <input
-                                        className="form-control"
-                                        id="datepicker"
-                                        type="date"
-                                        name="date"
-                                        placeholder="Date"
-                                        required
+                            <div className="form-group">
+                                <input
+                                    className="form-control"
+                                    id="datepicker"
+                                    type="date"
+                                    name="date"
+                                    placeholder="Date"
+                                    required
                                     />
-                                </label>
                             </div>
                         </div>
                         <div className="col-md-12">

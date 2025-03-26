@@ -41,7 +41,7 @@ const MainMenu = () => {
                 <li>
                     <Link
                         className="main-menu-link"
-                        href={process.env.PUBLIC_URL + "/blog"}
+                        href="/blog"
                     >
                         Blog
                     </Link>
@@ -49,7 +49,7 @@ const MainMenu = () => {
                         <li>
                             <Link
                                 className="sub-menu-link"
-                                href={process.env.PUBLIC_URL + "/blog"}
+                                href="/blog"
                             >
                                 Blog list
                             </Link>
@@ -57,7 +57,7 @@ const MainMenu = () => {
                         <li>
                             <Link
                                 className="sub-menu-link"
-                                href={process.env.PUBLIC_URL + "/blog-details/1"}
+                                href="/blog-details/1"
                             >
                                 Blog Details
                             </Link>
@@ -68,7 +68,7 @@ const MainMenu = () => {
                 <li>
                     <Link
                         className="main-menu-link"
-                        href={process.env.PUBLIC_URL + "/about"}
+                        href="/about"
                     >
                         About
                     </Link>
@@ -76,7 +76,7 @@ const MainMenu = () => {
                 <li>
                     <Link
                         className="main-menu-link"
-                        href={process.env.PUBLIC_URL + "/contact"}
+                        href="/contact"
                     >
                         Contact
                     </Link>

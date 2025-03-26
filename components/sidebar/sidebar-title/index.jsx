@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Fragment } from "react";
 
 const SidebarTitle = ({ title, classOption }) => {
     return (
-        <React.Fragment>
+        <Fragment>
             <h4 className={`widget-title ${classOption}`}>{title}</h4>
-        </React.Fragment>
+        </Fragment>
     );
 };
 

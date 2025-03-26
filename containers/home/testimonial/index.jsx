@@ -2,7 +2,9 @@
 
 import SectionTitle from "@/components/section-title";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation } from "swiper";
+import SwiperCore from "swiper";
+import { Navigation } from 'swiper/modules';
+
 import HomeData from "@/data/home.json";
 import Testimonial from "@/components/testimonial";
 
@@ -28,7 +30,7 @@ const TestimonialContainer = () => {
         <section
             className="testimonial-area testimonial-default-area testimonial-bg-img bg-img"
             style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/img/photos/testimonial-bg1.jpg)`,
+                backgroundImage: `url(/img/photos/testimonial-bg1.jpg)`,
             }}
         >
             <div className="container">

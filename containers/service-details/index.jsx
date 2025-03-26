@@ -15,6 +15,7 @@ import CasesItem from "@/components/cases";
 
 SwiperCore.use([Pagination]);
 const ServiceDetailsContainer = ({ data }) => {
+ 
     const swiperOption = {
         slidesPerView: 2,
         speed: 1000,
@@ -101,10 +102,7 @@ const ServiceDetailsContainer = ({ data }) => {
                                     </div>
                                     <div className="thumb">
                                         <img
-                                            src={
-                                                process.env.PUBLIC_URL +
-                                                "/img/photos/doctor-02.png"
-                                            }
+                                            src="/img/photos/doctor-02.png"
                                             alt="hope"
                                         />
                                     </div>

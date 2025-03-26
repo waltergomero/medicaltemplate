@@ -17,22 +17,22 @@ const ServiceDetails = async ({params}) => {
     const data = ServiceData.filter((service) => service.id === serviceId);
     return (
         <Fragment>
-                <SEO title="Hope – Service Details" />
-                <div className="wrapper">
-                    <div className="main-content site-wrapper-reveal">
-                        <Breadcrumb
-                            prevs={[
-                                { text: "Home", path: "/" },
-                                { text: "Service", path: "/service" },
-                            ]}
-                            contentThree={data[0]?.title}
-                        />
-                        <ServiceDetailsContainer data={data[0]} />
-                    </div>
-                    <ScrollToTop />
-                </div>
+        <SEO title="Hope – Service Details" />
+        <div className="wrapper">
+            <div className="main-content site-wrapper-reveal">
+                <Breadcrumb
+                    prevs={[
+                        { text: "Home", path: "/" },
+                        { text: "Service", path: "/service" },
+                    ]}
+                    contentThree={data[0]?.title}
+                />
+                <ServiceDetailsContainer data={data[0]} />
+            </div>
+                <ScrollToTop />
+            </div>
         </Fragment>
-    );
+);
 };
 
 ServiceDetails.propTypes = {

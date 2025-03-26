@@ -125,14 +125,14 @@
         "testimonial": [
             {
                 "id": 1,
-                "image": "./img/testimonial/01.jpg",
+                "image": "/img/testimonial/01.jpg",
                 "excerpt": "“It’s been an absolute pleasure to work with hope, <br /> their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme.”",
                 "name": "Steven Gerrard",
                 "location": "Golden Lotus Apartment, Brooklyn, USA"
             },
             {
                 "id": 2,
-                "image": "./img/testimonial/02.jpg",
+                "image": "/img/testimonial/02.jpg",
                 "excerpt": "“It’s been an absolute pleasure to work with hope, <br /> their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme.”",
                 "name": "Kristina Castle",
                 "location": "Golden Lotus Apartment, HasThemes, BNA"
@@ -207,19 +207,19 @@
         "cases": [
             {
                 "id": 1,
-                "image": "img/cases/01.jpg",
+                "image": "/img/cases/01.jpg",
                 "name": "Natalie Huston",
                 "department": "Teeth Cleaning, High-tech materials"
             },
             {
                 "id": 2,
-                "image": "img/cases/02.jpg",
+                "image": "/img/cases/02.jpg",
                 "name": "Angela Mayer",
                 "department": "Teeth Cleaning"
             },
             {
                 "id": 3,
-                "image": "img/cases/01.jpg",
+                "image": "/img/cases/01.jpg",
                 "name": "Natalie Huston",
                 "department": "Teeth Cleaning, High-tech materials"
             }

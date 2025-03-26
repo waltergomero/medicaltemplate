@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
 
 const SocialIcon = ({ path, icon }) => {
+    console.log("path: ", path)
     return (
         <a
-            href={process.env.PUBLIC_URL + path}
+            href={path}
             target="_blank"
             rel="noopener noreferrer"
         >

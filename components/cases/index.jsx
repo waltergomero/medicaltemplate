@@ -6,7 +6,7 @@ const CasesItem = ({ data }) => {
         <div className="case-item">
             <div className="thumb">
                 <img
-                    src={`${process.env.PUBLIC_URL}/${data.image}`}
+                    src={data.image}
                     alt="Hope"
                 />
             </div>

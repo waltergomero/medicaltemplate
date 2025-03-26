@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const SidebarPost = ({ data }) => {
     return (
@@ -16,7 +16,7 @@ const SidebarPost = ({ data }) => {
                             </div>
                             <div className="content">
                                 <Link
-                                    to={
+                                    href={
                                         process.env.PUBLIC_URL +
                                         `/blog-details/${single.id}`
                                     }
