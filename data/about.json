@@ -16,9 +16,9 @@
     {
         "id": 4,
         "gallery": {
-            "imageOne": "img/about/01.jpg",
-            "imageTwo": "img/about/02.jpg",
-            "imageThree": "img/about/03.jpg"
+            "imageOne": "/img/about/01.jpg",
+            "imageTwo": "/img/about/02.jpg",
+            "imageThree": "/img/about/03.jpg"
         }
     },
     {

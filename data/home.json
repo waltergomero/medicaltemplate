@@ -143,23 +143,23 @@
         "brand": [
             {
                 "id": 1,
-                "image": "./img/brand-logo/01.png"
+                "image": "/img/brand-logo/01.png"
             },
             {
                 "id": 2,
-                "image": "./img/brand-logo/02.png"
+                "image": "/img/brand-logo/02.png"
             },
             {
                 "id": 3,
-                "image": "./img/brand-logo/03.png"
+                "image": "/img/brand-logo/03.png"
             },
             {
                 "id": 4,
-                "image": "./img/brand-logo/04.png"
+                "image": "/img/brand-logo/04.png"
             },
             {
                 "id": 5,
-                "image": "./img/brand-logo/05.png"
+                "image": "/img/brand-logo/05.png"
             }
         ]
     },

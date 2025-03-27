@@ -1,7 +1,8 @@
 
 import PropTypes from "prop-types";
-import SwiperCore, { Navigation } from "swiper";
+import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from 'swiper/modules';
 
 SwiperCore.use([Navigation]);
 const ServiceDetails = ({ data }) => {

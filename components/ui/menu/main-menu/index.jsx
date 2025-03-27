@@ -57,7 +57,7 @@ const MainMenu = () => {
                         <li>
                             <Link
                                 className="sub-menu-link"
-                                href="/blog-details/1"
+                                href="/blog/blog-details/1"
                             >
                                 Blog Details
                             </Link>

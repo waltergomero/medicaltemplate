@@ -2,10 +2,10 @@
     {
         "id": 1,
         "media": {
-            "rcImage": "./img/blog/s01.jpg",
-            "smallImage": "./img/blog/01.jpg",
+            "rcImage": "/img/blog/s01.jpg",
+            "smallImage": "/img/blog/01.jpg",
             "gridImage": "/img/blog/r01.jpg",
-            "mediumImage": "./img/blog/m01.jpg",
+            "mediumImage": "/img/blog/m01.jpg",
             "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "Problems About Social Insurance For Truck Drivers",
@@ -18,10 +18,10 @@
     {
         "id": 2,
         "media": {
-            "rcImage": "./img/blog/s02.jpg",
-            "smallImage": "./img/blog/02.jpg",
+            "rcImage": "/img/blog/s02.jpg",
+            "smallImage": "/img/blog/02.jpg",
             "gridImage": "/img/blog/r02.jpg",
-            "mediumImage": "./img/blog/m02.jpg",
+            "mediumImage": "/img/blog/m02.jpg",
             "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "5 Secrets To Coaching Your Employees To Greatness",
@@ -34,10 +34,10 @@
     {
         "id": 3,
         "media": {
-            "rcImage": "./img/blog/s03.jpg",
-            "smallImage": "./img/blog/03.jpg",
+            "rcImage": "/img/blog/s03.jpg",
+            "smallImage": "/img/blog/03.jpg",
             "gridImage": "/img/blog/r01.jpg",
-            "mediumImage": "./img/blog/m03.jpg",
+            "mediumImage": "/img/blog/m03.jpg",
             "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "5 Steps To Build Strategy Planning",
@@ -50,10 +50,10 @@
     {
         "id": 4,
         "media": {
-            "rcImage": "./img/blog/s01.jpg",
-            "smallImage": "./img/blog/03.jpg",
+            "rcImage": "/img/blog/s01.jpg",
+            "smallImage": "/img/blog/03.jpg",
             "gridImage": "/img/blog/r02.jpg",
-            "mediumImage": "./img/blog/m04.jpg",
+            "mediumImage": "/img/blog/m04.jpg",
             "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "The Desolate Beauty  of Greenland",
@@ -66,10 +66,10 @@
     {
         "id": 5,
         "media": {
-            "rcImage": "./img/blog/s02.jpg",
-            "smallImage": "./img/blog/03.jpg",
+            "rcImage": "/img/blog/s02.jpg",
+            "smallImage": "/img/blog/03.jpg",
             "gridImage": "/img/blog/r01.jpg",
-            "mediumImage": "./img/blog/m05.jpg",
+            "mediumImage": "/img/blog/m05.jpg",
             "largeImage": "/img/blog/post-detail-01.jpg"
         },
         "title": "Trend Of Consumer Market 2021",

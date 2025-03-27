@@ -87,7 +87,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/service-detalis" >
+                                    <Link href="/service/service-detalis" >
                                         service details
                                     </Link>
                                 </li>
@@ -110,7 +110,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/blog-details/1">
+                                    <Link href="/blog/blog-details/1">
                                         Blog details
                                     </Link>
                                 </li>

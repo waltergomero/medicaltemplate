@@ -12,7 +12,7 @@ import SEO from "@/components/seo";
 const ServiceDetails = async ({params}) => {
     const _params = await params;
     const id =_params.id[0];
-    console.log("id: ", id);
+ 
     const serviceId = parseInt(id, 10);
     const data = ServiceData.filter((service) => service.id === serviceId);
     return (

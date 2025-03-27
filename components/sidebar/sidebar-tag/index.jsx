@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import PropTypes from "prop-types";
 import { flatDeep, slugify, containsObject } from "@/utils";
 
@@ -29,12 +29,7 @@ const SidebarTag = ({ data }) => {
                 {allTags.map((single, i) => {
                     return (
                         <li key={i}>
-                            <Link
-                                to={
-                                    process.env.PUBLIC_URL +
-                                    `/tag/${single.slug}`
-                                }
-                            >
+                            <Link href={`/tag/${single.slug}`}>
                                 {single.title}
                             </Link>
                         </li>

@@ -7,11 +7,13 @@ import SidebarWorkingTime from "@/components/sidebar/sidebar-working-time";
 import Appointment from "@/components/sidebar/appointment";
 import ServiceDetails from "@/components/service-details";
 import AccordionWrapTwo from "@/components/accordion/AccordionWrapTwo.jsx";
-import SwiperCore, { Pagination } from "swiper";
+import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import HomeData from "@/data/home.json";
 import ServiceData from "@/data/service.json";
 import CasesItem from "@/components/cases";
+import { Navigation, Pagination } from 'swiper/modules';
+
 
 SwiperCore.use([Pagination]);
 const ServiceDetailsContainer = ({ data }) => {
