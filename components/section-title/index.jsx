@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const SectionTitle = ({ subTitle, title, classOption }) => {
     
     return (
-        <div className="section-title " >
+        <div className={`section-title ${classOption}`}>
             <p>{subTitle}</p>
             <h2
                 className="title"

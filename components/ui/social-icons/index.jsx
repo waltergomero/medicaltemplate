@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 const SocialIcon = ({ path, icon }) => {
-    console.log("path: ", path)
     return (
         <a
             href={path}

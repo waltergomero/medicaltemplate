@@ -33,7 +33,7 @@ const SidebarCategories = ({ data }) => {
                     return (
                         <li key={i}>
                             <Link
-                                href={`/category/${cat.slug}`
+                                href={`/blog/category/${cat.slug}`
                                 }
                             >
                                 {cat.title} <span>{cat.count}</span>

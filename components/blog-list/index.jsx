@@ -7,7 +7,7 @@ const BlogListItem = ({ data }) => {
         return (
             <Link
                 className="category"
-                href={ `/category/${slugify(value)}`}
+                href={ `/blog/category/${slugify(value)}`}
                 key={i}
             >
                 {value}
