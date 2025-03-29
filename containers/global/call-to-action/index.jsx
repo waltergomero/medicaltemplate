@@ -5,8 +5,7 @@ const CallToAction = () => {
     return (
         <div
             className="divider-area bgcolor-theme bg-img"
-            style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/img/shape/01.jpg)`,
+            style={{ backgroundImage: `url(/img/shape/01.jpg)`,
             }}
         >
             <div className="container">

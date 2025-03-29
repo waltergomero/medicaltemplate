@@ -47,8 +47,7 @@ const BrandContainer = () => {
     return (
         <div
             className="brand-section bg-img"
-            style={{
-                backgroundImage: `url(/img/photos/testimonial-bg1.jpg)`,
+            style={{ backgroundImage: `url(/img/photos/testimonial-bg1.jpg)`,
             }}
         >
             <div className="container">

@@ -10,10 +10,7 @@ const ServiceItem = ({ data }) => {
             <div className="content">
                 <h5 className="service-name">{data.title}</h5>
                 <p>{data.excerpt}</p>
-                <Link
-                    className="btn-link"
-                href={process.env.PUBLIC_URL + `/service-details/${data.id}`}
-                >
+                <Link className="btn-link" href={`/service/service-details/${data.id}`}>
                     More <i className="icofont-simple-right"></i>
                 </Link>
             </div>

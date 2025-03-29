@@ -1,86 +1,47 @@
 "use client";
-import { useState, useEffect } from "react";
-import Image from "next/image";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore from "swiper";
 import HomeData from "@/data/home.json";
 import Intro from "@/components/intro";
+import { Navigation } from 'swiper/modules';
 
-import { ChevronLeft, ChevronRight } from "lucide-react";
-
-export default function ImageSlider() {
-  // State to keep track of the current image index
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [images, setImages] = useState(HomeData[1].slider);
-
-  // State to determine if the image is being hovered over
-  const [isHovered, setIsHovered] = useState(false);
-
-  // Function to show the previous slide
-  const prevSlide = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+SwiperCore.use([Navigation]);
+const IntroContainer = () => {
+    const swiperOption = {
+        loop: true,
+        speed: 600,
+        spaceBetween: 0,
+        slidesPerView: 1,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".hero-slider .swiper-button-next",
+            prevEl: ".hero-slider .swiper-button-prev",
+        },
+    };
+    return (
+        <div className="hero-slider-area">
+            <Swiper effect="fade" className="hero-slider" {...swiperOption}>
+                {HomeData[1].slider &&
+                    HomeData[1].slider.map((single, key) => {
+                        return (
+                            <SwiperSlide key={key}>
+                                <Intro key={key} data={single} />
+                            </SwiperSlide>
+                        );
+                    })}
+                <div className="swiper-button-prev">
+                    <i className="icofont-arrow-left"></i>
+                </div>
+                <div className="swiper-button-next">
+                    <i className="icofont-arrow-right"></i>
+                </div>
+            </Swiper>
+        </div>
     );
-  };
+};
 
-  // Function to show the next slide
-  const nextSlide = ()=> {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
-  // useEffect hook to handle automatic slide transition
-  useEffect(() => {
-    // Start interval for automatic slide change if not hovered
-    if (!isHovered) {
-      const interval = setInterval(() => {
-        nextSlide();
-      }, 3000);
-
-      // Cleanup the interval on component unmount
-      return () => {
-        clearInterval(interval);
-      };
-    }
-  }, [isHovered]);
-
-  // Handle mouse over event
-  const handleMouseOver = () => {
-    setIsHovered(true);
-  };
-
-  // Handle mouse leave event
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  return (
-    <div className="hero-slider-area">
-      <div
-        className="hero-slider relative h-[778px] justify-items-center  group hover:-translate-y-2"
-        onMouseOver={handleMouseOver}
-        onMouseLeave={handleMouseLeave}
-      >
-        <Image
-          src={images[currentIndex].backgroundImage}
-          alt={`Slider Image ${currentIndex + 1}`}
-          layout="fill"
-          objectFit="cover"
-          className=" transition-all duration-500 ease-in-out cursor-pointer"
-        />
-       <Intro  data={images[currentIndex]} />
-      </div>
-     
-      <button
-        className="absolute left-0 top-1/2 transform h-[459px]  -translate-y-1/2 text-white p-2 group"
-        onClick={prevSlide}
-      >
-        <ChevronLeft className="text-gray-400 group-hover:text-white" />
-      </button>
-      <button
-        className="absolute right-0 top-1/2 transform h-[459px] -translate-y-1/2 text-white p-2 group"
-        onClick={nextSlide}
-      >
-        <ChevronRight className="text-gray-400 group-hover:text-white" />
-      </button>
-
-    </div>
-  );
-}
+export default IntroContainer;

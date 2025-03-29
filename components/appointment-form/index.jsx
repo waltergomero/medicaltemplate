@@ -42,19 +42,13 @@ const AppointmentForm = () => {
                     </div>
                     <div className="col-md-3">
                         <div className="form-group datepicker-group">
-                            <label
-                                htmlFor="datepicker"
-                                className="form-label icon icofont-calendar"
-                            >
                                 <input
                                     className="form-control"
                                     id="datepicker"
                                     type="date"
                                     name="date"
                                     placeholder="Date"
-                                />
-                            </label>
-                          
+                                />                        
                         </div>
                     </div>
                     <div className="col-md-12">

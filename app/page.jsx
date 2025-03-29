@@ -1,6 +1,6 @@
-import Image from "next/image";
+
 import {Fragment} from "react";
-import IntroContainer from "@/containers/home/intro";
+import IntroContainer from "@/containers/home/intro/index";
 import HealthFeatureContainer from "@/containers/home/health-feature";
 import MedicalFeatureContainer from "@/containers/home/medical-feature";
 import AppointmentContainer from "@/containers/home/appointment";
@@ -10,8 +10,7 @@ import BrandContainer from "@/containers/global/brand";
 import PricingContainer from "@/containers/global/pricing";
 import BlogAccordion from "@/containers/home/blog-accordion";
 import GoogleMapContainer from "/containers/global/map";
-import Footer from "@/components/footer";
-//import ScrollToTop from "../components/scroll-to-top";
+import ScrollToTop from "@/components/scroll-to-top";
 import SEO from "@/components/ui/seo";
 
 export default function HomePage() {
@@ -29,10 +28,9 @@ export default function HomePage() {
                 <BrandContainer />
                 <PricingContainer />
                 <BlogAccordion />
-                <GoogleMapContainer />
+                <GoogleMapContainer /> 
             </div>
-            <Footer />
-            {/* <ScrollToTop /> */}
+            <ScrollToTop />
         </div>
 </Fragment>
   );

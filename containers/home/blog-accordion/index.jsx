@@ -22,14 +22,8 @@ const BlogAccordion = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <SectionTitle
-                            classOption="mt-md-70"
-                            title="<span>FAQs</span>"
-                        />
-                        <div
-                            className="accordian-content"
-                            data-aos-duration="1100"
-                        >
+                        <SectionTitle classOption="mt-md-70" title="<span>FAQs</span>" />
+                        <div className="accordian-content"  data-aos-duration="1100" >
                             <AccordionWrap />
                             <Link className="btn-line" href="/">
                                 View All Questions

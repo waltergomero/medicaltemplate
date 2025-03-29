@@ -2,12 +2,9 @@ import PropTypes from "prop-types";
 
 const Testimonial = ({ data }) => {
     return (
-        <div className="testimonial-item">
-            <div className="thumb">
-                <img
-                    src={data.image}
-                    alt="testimonial"
-                />
+        <div className="testimonial-item ">
+            <div className="thumb flex justify-center">
+                <img src={data.image} alt="testimonial" />
             </div>
             <div className="client-content">
                 <p dangerouslySetInnerHTML={{ __html: data.excerpt }}></p>

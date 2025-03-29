@@ -6,7 +6,7 @@ const Intro = ({ data }) => {
         <div
             className="intro-section"
             style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL + data.backgroundImage})`,
+                backgroundImage: `url(${data.backgroundImage})`,
             }}
         >
             <div className="container">

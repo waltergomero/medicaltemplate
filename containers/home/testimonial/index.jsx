@@ -2,37 +2,23 @@
 
 import SectionTitle from "@/components/section-title";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore from "swiper";
-import { Navigation } from 'swiper/modules';
-
+import SwiperCore, { Navigation } from "swiper";
 import HomeData from "@/data/home.json";
 import Testimonial from "@/components/testimonial";
 
 SwiperCore.use([Navigation]);
 const TestimonialContainer = () => {
     const swiperOption = {
-        slidesPerView: 1,
-        speed: 1000,
         loop: true,
-        spaceBetween: 0,
-        effect: "fade",
-        fadeEffect: { crossFade: true },
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: true,
-        },
-        navigation: {
-            nextEl: ".testimonial-slider-container .swiper-button-next",
-            prevEl: ".testimonial-slider-container .swiper-button-prev",
-        },
+        speed: 600,
+        spaceBetween: 360,
+        slidesPerView: 1,
+        pagination: { clickable: true },
     };
     return (
         <section
             className="testimonial-area testimonial-default-area testimonial-bg-img bg-img"
-            style={{
-                backgroundImage: `url(/img/photos/testimonial-bg1.jpg)`,
-            }}
-        >
+            style={{backgroundImage: `url(/img/photos/testimonial-bg1.jpg)`,}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -45,10 +31,7 @@ const TestimonialContainer = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-12" data-aos-duration="1100">
-                        <Swiper
-                            className="testimonial-slider-container"
-                            {...swiperOption}
-                        >
+                        <Swiper className="relative team-slider-container" {...swiperOption}>
                             {HomeData[5].testimonial &&
                                 HomeData[5].testimonial.map((single, key) => {
                                     return (
@@ -60,8 +43,7 @@ const TestimonialContainer = () => {
                                         </SwiperSlide>
                                     );
                                 })}
-                            <div className="swiper-button-next"></div>
-                            <div className="swiper-button-prev"></div>
+         
                         </Swiper>
                     </div>
                 </div>

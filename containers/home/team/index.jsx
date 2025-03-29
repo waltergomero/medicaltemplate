@@ -51,10 +51,7 @@ const TeamContainer = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-12" data-aos-duration="1300">
-                        <Swiper
-                            className="team-slider-container"
-                            {...swiperOption}
-                        >
+                        <Swiper className="team-slider-container" {...swiperOption}>
                             {HomeData[4].team &&
                                 HomeData[4].team.map((single, key) => {
                                     return (
